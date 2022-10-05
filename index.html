@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="author" content="Nathaniel Susabda">
+  <link rel="Icon" type="image/x-icon" href="/images/linkImage.png">
+  <title>First Meeting Minute</title>
+</head>
+  <body>
+    <main>
+    <header>Created by: Nathaniel Susabda</header>
+    <h1>First Meeting Minute</h1>
+    <h3>Date: 4 October 2022</h3>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Ideas_Discussed</a></li>
+        <li><a href="#">Check_Ins</a></li>
+        <li><a href="#">Media</a></li>
+      </ul>
+    </nav>
+  </main>
+    <section>
+    <div id="Ideas_Discussed">
+      <h2>Ideas Discussed in the meeting</h2>
+      <p>In the next meeting we will implement the <b> <span><i>sound</i></span>, <span><i>images</i></span>, and <span><i>videos</i></span> </b>into our website.<br>
+      This link might be useful for the next meeting</p><a href="https://www.w3schools.com/html/html5_video.asp" target="_blank"> <strong> <em>Click this link</em></strong></a>
+    </div>
+  </section>
+  <hr>
+    <div id="Check_Ins">
+      <h2>Check Ins</h2>
+      <h3>Attendance:</h3>
+      <ul>
+        <li>Nathan</li>
+        <li>Jack</li>
+        <li>Garien</li>
+        <li>Abit</li>
+        <li>Loki</li>
+      </ul>
+      <h3>This meeting covers:</h3>
+      <ol>
+        <li>Features to be implemented in the website</li>
+        <li>Design pictures that will be implemented in the next meeting</li>
+        <li>Make videos that will be implemented in the next meeting</li>
+      </ol>
+    </div>
+    <hr>
+    <div id="Documentation">
+      <h2>Summary</h2>
+      <details>
+      <summary>
+        What should we improve for the next meeeting?
+      </summary>
+      Communicate with each other more.
+    </details>
+    <h2>Comments about this meeeting</h2>
+    <p>I think that we have achieved all of the goals that we planned from last meeting</p>
+
+      <h2>Media</h2>
+      <img src="images/chart.png" alt="image of chart"/>
+      <video src="videos/vid.mp4" height="240" width="320" controls>Video not supported</video>
+      <figure>
+        <figcaption>Listen to Audio:</figcaption>
+        <audio
+            controls
+            src="audio/audi.mp3">
+                <a href="audio/audi.mp3">
+                    Download
+                </a>
+        </audio>
+    </figure>
+    </div>
+    <br>
+    <fieldset>
+    <h3>Form</h3>
+    <form method="get">
+      <div>
+        <label>Name</label>
+        <input>
+      </div>
+        Are you satisfied with this meeting?
+        <div>
+          <label>yes</label>
+          <input type="button" value="CLICK">
+        </div>
+        <div>
+          <label>no</label>
+          <input type="button" value="CLICK">
+        </div>
+      <div>
+        <label>Concerns: </label>
+        <textarea id="concerns" name="concerns"
+          rows="6" cols="35">
+        </textarea>
+      </div>
+      <div>
+        <label for="Best-member">Choose the best member from the list:</label>
+        <input list="Best-members" name="Best-member" id="Best-member">
+        <datalist id="Best-members">
+          <option value="Nathan">
+          <option value="Jack">
+          <option value="Garien">
+          <option value="Abit">
+          <option value="Loki">
+        </datalist>
+      </div>
+      <div>
+        <label for="MeetProf">Do you want to meet the TA this week?</label>
+        <select name="prof" id="MeetProf">
+            <option value="">Choose one</option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select>
+      </div>
+      <button>Submit</button>
+    </form>
+  </fieldset>
+  <footer>The end of the website</footer>
+  </body>
+</html>
