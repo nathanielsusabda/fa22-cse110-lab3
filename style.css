@@ -26,6 +26,10 @@ h3 {
     color:hsl(240, 100%, 20%);
 }
 
+h2 h3 {
+    text-justify: auto;
+}
+
 p {
   border: 2px solid rebeccapurple;
   padding: .5em;
@@ -141,6 +145,26 @@ p {
 
 link [href="https://www.w3schools.com/html/html5_video.asp"]{
     color: blueviolet;
+}
+
+span, div {
+    border: 2px;
+}
+
+div > h3 {
+    background-color: yellow;
+}
+
+h2 ~ p {
+    color: red;
+}
+
+h2 + h3 {
+    color: lightcoral;
+}
+
+#comb.yey {
+    color: green;
 }
 
 
