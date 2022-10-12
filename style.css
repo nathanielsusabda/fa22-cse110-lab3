@@ -139,6 +139,10 @@ p {
     font-style: italic;
 }
 
+link [href="https://www.w3schools.com/html/html5_video.asp"]{
+    color: blueviolet;
+}
+
 
 @media (print){
     body{
