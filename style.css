@@ -1,0 +1,148 @@
+/* Setting the h1 color to blue */
+h1 {
+    color: blue;
+    text-decoration: underline orange;
+    max-width:100ex;
+    max-height: 10px;
+    text-align: center;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+* {
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #aec6cf;
+}
+
+h2 {
+    color:rgb(61, 28, 170);
+    display: block;
+    height: 4ch;
+    width: 100ch;
+}
+
+h3 {
+    color:hsl(240, 100%, 20%);
+}
+
+p {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+  display: inline-block;
+}
+
+.box {
+    position: sticky;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1em;
+    background-color: bisque;
+    margin: -2px 0.5fr 70px auto;
+    padding-top: 0px;
+    padding-bottom:2ch;
+    padding-left:10mm;
+    padding-right:2pt;
+
+  }
+
+  .secondBox {
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius:2ex;
+    background-color: bisque;
+
+    margin-top: -2px;
+    margin-right:1fr;
+    margin-bottom: 50px;
+    margin-left: 0.5em;
+
+    padding: 2px 1em 0 2em;
+  }
+
+  .btn {
+    width: 9em;
+    height: 6ex;
+    border: rebeccapurple;
+    border-style: dashed;
+    border-radius: 20px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+
+.boxes {
+    display:flex;
+    align-items: flex-end;
+}
+.boxes div{
+    border: 2pt chocolate dotted;
+}
+
+.box1 {
+    flex:1;
+    order:2;
+}
+
+.box2 {
+    flex:1;
+    order:1;
+}
+
+.box3 {
+    flex:1;
+    order:3;
+}
+
+.btn:hover {
+    color: red;
+}
+.btn:active{
+    box-shadow: blue;
+}
+
+.grid_cont {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-gap:20px;
+    grid-template-areas:
+    "header header"
+    "secondHead content1"
+    "secondHead content2"
+    "secondHead content3";
+}
+.gridHead {
+    grid-area: header;
+}
+
+.gridItem {
+    grid-area: secondHead;
+}
+
+.grid1 {
+    grid-area: content1;
+}
+
+.grid2 {
+    grid-area: content2;
+}
+
+.grid3 {
+    grid-area: content3;
+}
+
+#prac1 {
+    color: black;
+    font-style: italic;
+}
+
+
+@media (print){
+    body{
+        color: orange;
+    }
+}
+
